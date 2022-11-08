@@ -137,3 +137,73 @@ h6 {
 .header_bottom ul{
     height: 50px;
 }
+
+/* CONTENT */
+
+.block{
+    background-color: #ebebeb;
+    padding: 36px 25px;
+}
+
+.block>a{
+    font-size: 20px;
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+
+.block a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.block .block_content{
+    padding-top: 40px;
+}
+
+.articles_horizontal .article{
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 22px;
+    font-size: 16px;
+    padding: 12px;
+    vertical-align: top;
+}
+
+.articles .article .article_image{
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.articles .article .article_info{
+    margin-left: 125px;
+    padding-left: 21px;
+}
+
+.articles .article .article_info>a{
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.articles .article .article_info>.article_info_meta{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 9px;
+    margin-bottom: 13px;
+}
+
+.articles .article .article_info>.article_info_meta a{
+    color: black;
+}
+
+.articles .article .article_info>.article_info_preview{
+    font-size: 16px;
+    font-weight: 300;
+}
