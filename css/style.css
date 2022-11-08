@@ -122,5 +122,68 @@ h6 {
     height: 50px;
 }
 
+.block{
+    background-color: #ebebeb;
+    padding: 36px 25px;
+}
 
+.block>a{
+    font-size: 20px;
+    color: #000;
+    float: right;
+}
 
+.block a{
+    color: #000;
+}
+
+.block .block_content{
+    padding-top: 40px;
+}
+
+ .articles_horizontal .article{
+width: 50%; 
+display: inline-block;
+margin-bottom: 22px;
+font-size: 16px;
+padding: 12px;
+vertical-align: top;
+}
+
+.articles .article .article__image{
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.articles .article .article__info{
+    margin-left: 125px;
+    padding-left: 21px;
+}
+
+.articles .article .article__info>a{
+color: #000;
+font-size: 18px;
+font-weight: normal;
+}
+
+.articles .article .article__info>.article__info__meta{
+font-size: 14px;
+font-weight: 300;
+margin-top: 9px;
+margin-bottom: 13px;
+}
+
+.articles .article .article__info>.article__info__meta a{
+    color: #000;
+}
+
+.articles .article .article__info>.article__info__preview{
+    font-size: 20px;
+    font-weight: 300;
+}
