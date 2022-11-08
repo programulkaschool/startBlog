@@ -193,9 +193,10 @@ h6 {
 }
 
 .header-botom .header-nav-botom ul li {
-   display: inline-block;
+    display: inline-block;
 }
-.header-botom ul>li>a{
+
+.header-botom ul>li>a {
     height: 50px;
     display: flex;
     align-items: center;
@@ -210,4 +211,74 @@ h6 {
 
 .header-botom .header-nav-botom ul li a:hover {
     text-decoration: underline;
+}
+
+.block {
+    background-color: #ebebeb;
+    padding: 36px 25px;
+}
+
+.block a {
+    text-decoration: 0;
+}
+
+.block>a {
+    font-size: 20px;
+    color: black;
+    float: right;
+    text-decoration: 0;
+}
+
+.block a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.block .block__conteiner {
+    padding-top: 40px;
+}
+
+.articles__horizontal .article {
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 22px;
+    font-size: 16px;
+    padding: 12px;
+    vertical-align: top;
+}
+
+.articles .article .articli_image {
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.articles .article .article__nfo {
+    margin-left: 125px;
+    padding-left: 21px;
+}
+
+.articles .article .article__nfo .a {
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.articles .article .article__info>.article__info__meta {
+    font-size: 14px;
+    font-weight: ;
+}
+
+.articles .article .article__info>.article__info__meta a {
+    color: #000;
+}
+
+.articles .article .article__info>.article__info__preview {
+    font-size: 16px;
+    font-weight: 300;
 }
