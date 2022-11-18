@@ -1,6 +1,5 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -96,12 +95,14 @@ h6 {
     color: #000;
     font-size: 20px;
     padding: 25px 25px;
+    text-decoration: none;
  }
 
 
  .header__bottom{
     background-color: #000;
-    height: 50px;    
+    height: 50px;  
+    margin-bottom: 30px;  
 }
 .header__bottom li {
     height: 100%;
@@ -116,6 +117,7 @@ h6 {
     padding: 0px 32px;
     display: flex;
     align-items:center ;
+    text-decoration: none;
 }
 
 .header__bottom ul{
@@ -125,6 +127,7 @@ h6 {
 .block{
     background-color: #ebebeb;
     padding: 36px 25px;
+    margin-bottom: 30px;
 }
 
 .block>a{
@@ -135,13 +138,14 @@ h6 {
 
 .block a{
     color: #000;
+    text-decoration: none;
 }
 
 .block .block_content{
     padding-top: 40px;
 }
 
- .articles_horizontal .article{
+.articles_horizontal .article{
 width: 50%; 
 display: inline-block;
 margin-bottom: 22px;
@@ -184,6 +188,18 @@ margin-bottom: 13px;
 }
 
 .articles .article .article__info>.article__info__preview{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
+}
+
+.articles.articles_horizontal{
+    font-size: 0px;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*article*/
+
+.photo_content{
+    max-width: 100%;
+    max-height: 700px;
 }
