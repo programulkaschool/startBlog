@@ -88,17 +88,17 @@ h6 {
     background-color: #ebebeb;
 }
 
-.header_top .container{
+#footer .container, .header_top .container{
     display: flex;
     justify-content: space-between;
 }
 
-.header_top_menu ul li{
+.logo_menu ul li, .header_top_menu ul li{
     display: inline-block;
     padding: 10px;
 }
 
-.header_top_menu ul li a{
+.logo_menu ul li a, .header_top_menu ul li a{
     text-decoration: none;
     color: black;
     padding: 60px 20px;
@@ -143,6 +143,7 @@ h6 {
 .block{
     background-color: #ebebeb;
     padding: 36px 25px;
+    margin-bottom: 30px;
 }
 
 .block>a{
@@ -162,7 +163,6 @@ h6 {
 }
 
 .articles_horizontal .article{
-    width: 50%;
     display: inline-block;
     margin-bottom: 22px;
     font-size: 16px;
@@ -207,3 +207,19 @@ h6 {
     font-size: 16px;
     font-weight: 300;
 }
+
+.articles.articles_horizontal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#footer{
+    padding: 37px 0;
+    background-color: #ebebeb;
+}
+
+.photo_content{
+    max-width: 100%;
+    max-height: 100%;
+}
+
